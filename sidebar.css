@@ -1,0 +1,26 @@
+.sidebar{
+    background-color:rgb(15, 15, 15);    
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    bottom:0px;
+}
+.icons{
+    display: inline-block;
+    width: 150px;
+}
+.icons>input{
+    margin-left: 50px;
+    width: 45px;
+}
+.icons>div{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
