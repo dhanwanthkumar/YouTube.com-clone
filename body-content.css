@@ -1,10 +1,14 @@
 .body-content{
     display: grid;
-    column-gap: 10px;
+    column-gap: 2%;
     row-gap: 90px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 110px;
     margin-left: 200px;
+}
+.vedio-preview{
+  display: flex;
+  flex-direction: column;
 }
   .thumbnail{
     width:100%;
